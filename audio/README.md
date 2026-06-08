@@ -1,5 +1,5 @@
 Place the name pronunciation audio file in this folder.
 
-The home page currently looks for:
+The home page currently uses:
 
-audio/michaela-krawczyk-pronunciation.mp3
+audio/MichaelaKrawczyk-namePronounciation.m4a
