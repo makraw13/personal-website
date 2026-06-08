@@ -6,7 +6,7 @@
     <title>Michaela Krawczyk</title>
     <meta name="description" content="Michaela Krawczyk's personal website for research and professional projects">
     <link rel="icon" href="images/MK-logo.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css?v=20260607-5">
+    <link rel="stylesheet" href="styles.css?v=20260608-3">
   </head>
   <body class="home-page">
     <a class="skip-link" href="#main">Skip to Main Content</a>
@@ -19,7 +19,12 @@
             <span class="brand-subtitle">PhD student at Indiana University Bloomington</span>
           </span>
         </a>
-        <nav class="site-nav" aria-label="Site">
+        <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-controls="site-nav" aria-expanded="false" data-menu-toggle>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Site">
           <a href="research.html">Research</a>
           <a href="publications.html">Publications</a>
           <a href="design.html">UX Projects</a>
@@ -34,7 +39,7 @@
         </figure>
         <div>
           <h1 id="hello-title">Hello!</h1>
-          <p class="lede">My name is Michaela Krawczyk<br><span class="pronunciation-line"><span>(mih-kay-lah / kraw-zik)</span><button class="audio-button" type="button" aria-label="Play pronunciation of Michaela Krawczyk" aria-controls="name-pronunciation-audio" data-audio-button><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4z"></path><path d="M16 9.5a4 4 0 0 1 0 5"></path><path d="M18.5 7a7 7 0 0 1 0 10"></path></svg></button><audio id="name-pronunciation-audio" src="audio/michaela-krawczyk-pronunciation.mp3" preload="none"></audio></span></p>
+          <p class="lede">My name is Michaela Krawczyk<br><span class="pronunciation-line"><span>(mih-kay-lah / kraw-zik)</span><button class="audio-button" type="button" aria-label="Play pronunciation of Michaela Krawczyk" aria-controls="name-pronunciation-audio" data-audio-button><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 9v6h4l5 4V5L8 9H4z"></path><path d="M16 9.5a4 4 0 0 1 0 5"></path><path d="M18.5 7a7 7 0 0 1 0 10"></path></svg></button><audio id="name-pronunciation-audio" src="audio/MichaelaKrawczyk-namePronounciation.m4a" preload="none"></audio></span></p>
           <p>I'm a PhD student, researching human-computer interaction at the intersection of health and media.</p>
           <p>The best place to reach me is<br>my student email:</p>
           <p class="email-link">
@@ -65,5 +70,6 @@
         });
       }
     </script>
+    <script src="site.js"></script>
   </body>
 </html>
