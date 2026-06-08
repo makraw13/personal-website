@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Wandering Peacock Website | MK UX Portfolio</title>
     <link rel="icon" href="images/MK-logo.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css?v=20260607-5">
+    <link rel="stylesheet" href="styles.css?v=20260607-6">
   </head>
   <body class="story-page peacock-page">
     <a class="skip-link" href="#main">Skip to Main Content</a>
@@ -18,7 +18,12 @@
             <span class="brand-subtitle">PhD student at Indiana University Bloomington</span>
           </span>
         </a>
-        <nav class="site-nav" aria-label="Site">
+        <button class="menu-toggle" type="button" aria-label="Toggle navigation" aria-controls="site-nav" aria-expanded="false" data-menu-toggle>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Site">
           <a href="research.html">Research</a>
           <a href="publications.html">Publications</a>
           <a href="design.html" aria-current="page">UX Projects</a>
@@ -112,5 +117,6 @@
       </nav>
       <p class="footer-meta">Copyright © 2026 Michaela Krawczyk<br>Designed with help from Codex and GitHub</p>
     </footer>
+    <script src="site.js"></script>
   </body>
 </html>
